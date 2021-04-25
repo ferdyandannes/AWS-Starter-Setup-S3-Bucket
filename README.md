@@ -24,5 +24,7 @@ Python (v3)	(upload_items.py)	python3 upload_items.py
 Java	(App.java)	mvn clean install, then run mvn exec:java -Dexec.mainClass=com.mycompany.app.App
 
 FMI = bucket name
+
 FMI_1 = bucket name
+
 FMI_2 = ip address https://www.whatismyip.com/
