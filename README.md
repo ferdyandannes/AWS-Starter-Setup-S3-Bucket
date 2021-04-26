@@ -18,15 +18,25 @@ https://<FMI>.s3-us-west-2.amazonaws.com/index.html
 
 *** Different language
 (2)
+
 Node.js (v10)	(permissions.js)	npm install aws-sdk && node permissions.js
+
 Python (v3)	(permissions.py)	sudo pip3 install boto3 && sudo pip3 install --upgrade awscli && python3 permissions.py
+
 Java	(App.java)	mvn clean install, then run mvn exec:java -Dexec.mainClass=com.mycompany.app.App
+
+
 
 
 (3)
+
 Node.js (v10)	(upload_items.js)	node upload_items.js
+
 Python (v3)	(upload_items.py)	python3 upload_items.py
+
 Java	(App.java)	mvn clean install, then run mvn exec:java -Dexec.mainClass=com.mycompany.app.App
+
+
 
 FMI = bucket name
 
