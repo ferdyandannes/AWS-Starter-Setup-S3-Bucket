@@ -21,9 +21,7 @@ python3 upload_items.py
 https://<FMI>.s3-us-west-2.amazonaws.com/index.html
 ```
 
-*** Different language
-(2)
-
+### Different language for step 2
 Node.js (v10)	(permissions.js)	
 ```
 npm install aws-sdk && node permissions.js
@@ -40,8 +38,7 @@ mvn clean install, then run mvn exec:java -Dexec.mainClass=com.mycompany.app.App
 ```
 
 
-(3)
-
+### Different language for step 3
 Node.js (v10)	(upload_items.js)	
 ```
 node upload_items.js
@@ -57,9 +54,9 @@ Java	(App.java)
 mvn clean install, then run mvn exec:java -Dexec.mainClass=com.mycompany.app.App
 ```
 
-
+### Subject naming
+```
 FMI = bucket name
-
 FMI_1 = bucket name
-
 FMI_2 = ip address https://www.whatismyip.com/
+```
