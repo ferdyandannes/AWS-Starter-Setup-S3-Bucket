@@ -1,20 +1,24 @@
 # AWS-Starter-Setup-S3-Bucket
 
 1. Create S3 bucket
+```
 aws s3api create-bucket --bucket <FMI> --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2
-
+```
 
 2. Setting A Bucket Policy
+```
 sudo pip3 install boto3 && sudo pip3 install --upgrade awscli && python3 permissions.py
-
+```
 
 3. Upload The Website
+```
 python3 upload_items.py
-
+```
 
 4. Test the website
+```
 https://<FMI>.s3-us-west-2.amazonaws.com/index.html
-
+```
 
 *** Different language
 (2)
